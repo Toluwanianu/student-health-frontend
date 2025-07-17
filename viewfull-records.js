@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // ***** THIS IS THE CORRECTED URL *****
-            const apiUrl = `https://student-health-backend.onrender.com/api/students/${studentId}`;
+            const apiUrl = `https://dashing-daffodil-b7fcc1.netlify.app/api/students/${studentId}`;
             // ************************************
             
             console.log(`[ViewFullRecordJS] Fetching from: ${apiUrl}`);

@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // This is the new API endpoint for student login
-            const apiUrl = 'https://student-health-backend.onrender.com/api/student/login';
+            const apiUrl = 'ttps://dashing-daffodil-b7fcc1.netlify.app/api/student/login';
 
             const response = await fetch(apiUrl, {
                 method: 'POST',

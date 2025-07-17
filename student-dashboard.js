@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function pollForNewMessages(conversationId) {
         if (document.hidden || activeConversationId !== conversationId) return; 
         try {
-            const conversationOnServer = await fetchApi(`https://student-health-backend.onrender.com/api/conversations/${conversationId}`);
+            const conversationOnServer = await fetchApi(`ttps://dashing-daffodil-b7fcc1.netlify.app/api/conversations/${conversationId}`);
             const localConversation = currentConversations.find(c => c._id === conversationId);
             if (localConversation && conversationOnServer.messages.length > localConversation.messages.length) {
                 console.log("[Polling] New message found! Updating chat window.");

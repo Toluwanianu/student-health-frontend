@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             try {
-                const apiUrl = 'https://student-health-backend.onrender.com'; 
+                const apiUrl = 'ttps://dashing-daffodil-b7fcc1.netlify.app'; 
 
                 const response = await fetch(apiUrl, {
                     method: 'POST',

@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('[DEBUG EditPage] Data being sent for update:', updatedData);
 
         try {
-            const updateApiUrl = `https://student-health-backend.onrender.com/api/students/${studentIdFromStorage}`;
+            const updateApiUrl = `ttps://dashing-daffodil-b7fcc1.netlify.app/api/students/${studentIdFromStorage}`;
             const response = await fetch(updateApiUrl, {
                 method: "PUT",
                 headers: getAuthHeaders(),

@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         resultsLog.textContent = `Uploading ${parsedData.length} records...`;
 
         try {
-            const apiUrl = 'https://student-health-backend.onrender.com/api/students/bulk-import';
+            const apiUrl = 'https://dashing-daffodil-b7fcc1.netlify.app/api/students/bulk-import';
             const response = await fetch(apiUrl, {
                 method: 'POST',
                 headers: getAuthHeaders(), // <-- ADDED AUTH HEADERS

@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (response.status === 401) {
                 alert('Your session has expired. Please log in again.');
-                window.location.href = 'login..html.html';
+                window.location.href = 'index.html';
                 return;
             }
 

@@ -14,7 +14,7 @@
         
         // Redirect to the login page.
         // Make sure 'login.html' is the correct path from where your other pages are.
-        window.location.href = 'login.html.html';
+        window.location.href = 'index.html';
     } else {
         // If a token exists, we can assume for now the user is logged in.
         // A more advanced check could decode the token to see if it's expired,

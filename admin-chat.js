@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const response = await fetch(url, { ...options, headers });
         if (response.status === 401) {
             localStorage.clear();
-            window.location.href = 'login.html';
+            window.location.href = 'index.html'; // Redirect to login if unauthorized
             throw new Error('Session expired.');
         }
         if (!response.ok) {

@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Show the correct login link
             if (userType === 'admin') {
-                loginLink.href = 'login.html.html';
+                loginLink.href = 'index.html';
             } else {
                 loginLink.href = 'student-login.html';
             }

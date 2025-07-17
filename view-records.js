@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const apiUrl = `https://dashing-daffodil-b7fcc1.netlify.app/api/students?${queryString}`;
         try {
             const response = await fetch(apiUrl, { headers: getAuthHeaders() });
-            if (response.status === 401) { window.location.href = 'login.html.html'; return; }
+            if (response.status === 401) { window.location.href = 'index.html'; return; }
             if (!response.ok) throw new Error(`API Error (${response.status})`);
             
             const data = await response.json();
